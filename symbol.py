@@ -6,13 +6,21 @@ with open('text.txt', 'r', encoding='utf-8') as file:
             char = 'А̄'
         elif ord(char) == 0xF50F:
             char = 'а̄'
+        elif ord(char) == 0x0101:
+            char = 'а̄'
         elif ord(char) == 0xF511:
-            char = 'ē'
+            char = '\u0113'
+        elif ord(char) == 0x0113:
+            char = '\u0113'
+        elif ord(char) == 0xF52C:
+            char = 'Ю̄'
         elif ord(char) == 0xF52D:
             char = 'ю̄'
         elif ord(char) == 0xF518:
             char = 'О̄'
         elif ord(char) == 0xF519:
+            char = 'о̄'
+        elif ord(char) == 0x014D:
             char = 'о̄'
         elif ord(char) == 0xF522:
             char = 'Э̄'
